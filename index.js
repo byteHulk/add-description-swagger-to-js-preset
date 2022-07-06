@@ -48,7 +48,7 @@ module.exports = {
       const resNotes = getDefinitionsNotes(responsesRef, extra, 'returns')
       note += resNotes ? `*\n${resNotes}` : ''
     } else {
-      note += `* @returns {void}\n`
+      note += `*\n* @returns {void}\n`
     }
     note += '*/'
 
